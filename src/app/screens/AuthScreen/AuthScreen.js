@@ -2,6 +2,9 @@
 
 import React, { Component } from "react";
 import BrowserMeta from "../../components/BrowserMeta/BrowserMeta";
+import { Typography } from "antd";
+
+const { Title } = Typography;
 
 type Props = {};
 
@@ -10,8 +13,7 @@ class AuthScreen extends Component<Props> {
     return (
       <>
         <BrowserMeta title="Auth" />
-
-        <h1>Auth Screen</h1>
+        <Title>Auth Screen</Title>
       </>
     );
   }

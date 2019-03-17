@@ -2,6 +2,9 @@
 
 import React, { Component } from "react";
 import BrowserMeta from "../../components/BrowserMeta/BrowserMeta";
+import { Typography } from "antd";
+
+const { Title } = Typography;
 
 type Props = {};
 
@@ -10,7 +13,7 @@ class HomeScreen extends Component<Props> {
     return (
       <>
         <BrowserMeta title="Home" />
-        <h1>Home Screen</h1>
+        <Title>Home Screen</Title>
       </>
     );
   }
